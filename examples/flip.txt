@@ -1,0 +1,3 @@
+img = load("coolImage.png");
+img.flipH();
+img.save("flipped-dog.png");

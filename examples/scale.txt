@@ -1,0 +1,3 @@
+img = load("coolImage.png");
+img.scale(10, 100);
+img.save("scaled-dog.png");

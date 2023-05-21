@@ -1,0 +1,5 @@
+img1 = load("output_image.png");
+img2 = load("rotated-dog.png");
+img2.resize(2052, 2052);
+img3 = img1 + img2;
+img3.save("magick-comparison.png");

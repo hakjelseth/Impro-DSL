@@ -1,0 +1,3 @@
+image = load("coolImage.png");
+image.sepiaFilter();
+image.save("newImage.png");

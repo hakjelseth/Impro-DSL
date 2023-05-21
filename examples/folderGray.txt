@@ -1,0 +1,6 @@
+portraits = loadFolder("portraits");
+for portrait in portraits {
+    portrait.grayscale();
+    fileName = "bwFolder/bw-" + portrait.fileName();
+    portrait.save(fileName);
+};

@@ -1,0 +1,15 @@
+background = generate(1080, 1920, (210, 43, 43, 255));
+
+img1 = load("photo-booth.jpeg");
+img2 = load("photo-booth.jpeg");
+img3 = load("photo-booth.jpeg");
+
+img1.scale(8, 8);
+img2.scale(8, 8);
+img3.scale(8, 8);
+
+background.overlay(img1, 27, 5);
+background.overlay(img2, 27, 35);
+background.overlay(img3, 27, 65);
+background.text("Christmas Party", 96, 5, 98, "fonts/montserrat.ttf");
+background.save("julebord.png");

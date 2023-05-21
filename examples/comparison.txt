@@ -1,0 +1,4 @@
+img1 = load("portraits/christina-wocintechchat-com-0Zx1bDv5BNY-unsplash.jpeg");
+img2 = load("bwFolder/bw-christina-wocintechchat-com-0Zx1bDv5BNY-unsplash.jpeg");
+comb = img1 + img2;
+comb.save("before-after.jpeg");

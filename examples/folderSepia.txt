@@ -1,0 +1,9 @@
+imageFolder = loadFolder("imageFolder");
+print(imageFolder);
+for image in imageFolder {
+    print(image);
+    image.fileName();
+    image.sepiaFilter();
+    fileName = "imageFolder/new-" + image.fileName();
+    image.save(fileName);
+};

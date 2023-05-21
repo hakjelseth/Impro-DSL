@@ -1,0 +1,7 @@
+imageFolder = loadFolder("Images");
+watermark = load("watermark.png");
+for image in imageFolder {
+    image.overlay(watermark, 55, 75);
+    fileName = "watermarkFolder/watermark-" + image.fileName();
+    image.save(fileName);
+};

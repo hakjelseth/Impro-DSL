@@ -1,0 +1,3 @@
+test = loadFolder("emptyFolder");
+print(test, 2, "hei");
+print();

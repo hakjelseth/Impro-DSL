@@ -1,0 +1,4 @@
+img = load("coolImage.png");
+img.text("VOFF VOFF", 96, 25, 15, "fonts/impact.ttf");
+img.text("VOFF VOFF", 96, 25, 95, "fonts/impact.ttf");
+img.save("dog-with-text.png");

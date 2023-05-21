@@ -1,0 +1,3 @@
+img1 = load("Images/hd-wallpaper-g82ca66009_1920.jpeg");
+img1.resize(750, 611);
+img1.save("scaledLightHouse.jpeg");

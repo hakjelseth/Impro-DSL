@@ -1,0 +1,4 @@
+img = load("overlay.png");
+print(img.width());
+print(img.height());
+print(img.dimensions());

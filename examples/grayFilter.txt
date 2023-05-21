@@ -1,0 +1,3 @@
+img = load("frog.jpg");
+img.grayscale();
+img.save("bw-frog.png");

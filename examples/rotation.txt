@@ -1,0 +1,4 @@
+img = load("coolImage.png");
+img.rotate(45);
+img.rotate(45);
+img.save("rotated-dog.jpeg");
